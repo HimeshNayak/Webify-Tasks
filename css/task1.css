@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", Courier, monospace;
+  background: rgb(177, 77, 77);
+}
+
+body > h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+main {
+  font-family: "Roboto Mono", Courier, monospace;
+  background-color: white;
+  margin: auto;
+  max-width: 75%;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.mainTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.formField {
+  margin: 1.75rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.formField > label {
+  margin-right: 1rem;
+  width: 50%;
+  text-align: end;
+}
+
+.formField > label > span {
+  color: red;
+}
+
+.formInput {
+  margin-left: 1rem;
+  width: 50%;
+}
+
+.formInput > * {
+  padding: 0.25rem;
+}
+
+button {
+  margin: auto;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
