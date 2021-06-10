@@ -5,4 +5,4 @@
 ### Task 2 : [Webpage Using Parallax](https://himeshnayak.github.io/parallax.html)
 ### Task 3 : [Grid CSS/Bootstrap](https://himeshnayak.github.io/cssGrid.html)
 ### Task 4 : [JavaScript Caculator](https://himeshnayak.github.io/calculator.html)
-### Task 5 : [Portfolio](https://himeshnayak.github.io/portfolio.html)
+### Task 5 : [Portfolio](https://himeshnayak.github.io)
