@@ -7,6 +7,57 @@
     <title>WebifyTasks | SurveyForm</title>
 </head>
 <body>
-    SurveyForm
+    <h1>Survey Form</h1>
+    <main>
+      <p class="mainTitle">Please submit your details.</p>
+      <form action="#" class="form">
+        <div class="formField">
+          <label for="name">Name <span>*</span></label>
+          <div class="form__input">
+            <input name="name" type="text" placeholder="Enter Name" required/>
+          </div>
+        </div>
+        <div class="formField">
+          <label for="email">Email <span>*</span></label>
+          <div class="formInput">
+            <input name="email" type="email" placeholder="Enter Email" required/>
+          </div>
+        </div>
+        <div class="formField">
+          <label for="age">Age <span>*</span></label>
+          <div class="formInput">
+            <input name="age" type="number" placeholder="Age" required />
+          </div>
+        </div>
+        <div class="formField">
+          <label for="role">Which option best describes your current role?</label>
+          <div class="formInput">
+            <select name="role" id="role" placeholder="Select an option">
+              <option value="">Please choose an option</option>
+              <option value="fontend">Frontend Developer</option>
+              <option value="backend">Backend Developer</option>
+              <option value="fullStack">Full Stack Developer</option>
+            </select>
+          </div>
+        </div>
+        <div class="formField">
+          <label for="recommend">
+              How likely is that you would recommend learning Web Development to a friend?
+            <span>*</span>
+          </label>
+          <div class="formInput">
+            <input type="radio" id="Definitely" name="recommend" value="Definitely" required />
+            <label for="Definitely">Definitely</label><br />
+            <input type="radio" id="Maybe" name="recommend" value="Maybe" />
+            <label for="Maybe">Maybe</label><br/>
+            <input type="radio" id="Not Sure" name="recommend" value="Not Sure" />
+            <label for="Not Sure">Not Sure</label>
+          </div>
+        </div>
+        <div class="formField">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
 </body>
 </html>
